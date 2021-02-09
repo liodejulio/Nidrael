@@ -1,10 +1,10 @@
 {
-    "botName": "BOT_NAME",
-    "ownerName": "OWNER_NAME",
-    "BarBarKey": "YOUR_APIKEY",
-    "ownerNumbers": "628885xxxxxx@s.whatsapp.net",
-    "languages": "ind",
+    "botName": "Nidrael",
+    "ownerName": "Julio F.",
+    "BarBarKey": "a4556fd8-7901-4fc6-bc2b-24b30c7bd1a1",
+    "ownerNumbers": "12818409524@s.whatsapp.net",
+    "languages": "bra",
     "botPrefix": ".",
-    "memberLimitss": "25",
-    "userDefaultLimit": "30"
+    "memberLimitss": "10",
+    "userDefaultLimit": "10"
 }
