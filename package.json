@@ -40,10 +40,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NazwaS/termux-whatsapp-bot.git"
+    "url": "git+https://github.com/liodejulio/Nidrael.git"
   },
   "bugs": {
-    "url": "https://github.com/NazwaS/termux-whatsapp-bot/issues"
+    "url": "https://github.com/liodejulio/Nidrael/issues"
   },
-  "homepage": "https://github.com/NazwaS/termux-whatsapp-bot#readme"
+  "homepage": "https://github.com/liodejulio/Nidrael#readme"
 }
