@@ -1,0 +1,103 @@
+exports.wait = () => {
+        return `⌛ Sendo Processado ⌛`
+}
+
+exports.timeEnd = () => {
+        return `Tempo Expirado`
+}
+
+exports.succsess = () => {
+        return `✔️ Sucesso ✔️`
+}
+
+exports.levelon = () => {
+        return `❬ ✔ ❭ *Ativar Nivel*`
+}
+
+exports.levelnoton = () => {
+        return `❬ X ❭  *Desativar Nivel*`
+}
+
+exports.levelnol = () => {
+        return `*SEU NIVEL CONTINUA* 0 °-°`
+}
+
+exports.stick = () => {
+        return `[❗] Uma Falha ocorreu ao tentar converter a imagem para figurinha ❌`
+}
+
+exports.Iv = () => {
+        return `❌ Link Invalido ❌`
+}
+
+exports.group = () => {
+        return `[❗] Comando apenas para usar em Grupos! ❌`
+}
+
+exports.ownerG = () => {
+        return `[❗] Este comando so pode ser usado pelo dono do Grupo! ❌`
+}
+
+exports.ownerB = () => {
+        return `[❗] Este comando so pode ser usado pelo dono do Grupo! ❌`
+}
+
+exports.admin = () => {
+        return `[❗] Este comando so pode ser usado pelos Admins do Grupo! ❌`
+}
+
+exports.Badmin = () => {
+        return `[❗] Comando valido apenas quando o Bot for Admin! ❌`
+}
+
+exports.daftarB = (prefix) => {
+        return `──「 AINDA NAO REGISTRADO 」──\nHello Sis !\nYou haven't registered yet, let's register first... \n\nCommand : ${prefix}register nama|umur\nExample : ${prefix}register Nazwa|16`
+}
+
+exports.daftarD = () => {
+        return `*「 JA E REGISTRADO 」*\n\n*you have registered in the bot database*`
+}
+
+exports.wrongf = () => {
+        return`*Incorrect format / blank text*`
+}
+
+exports.clears = () => {
+        return`*clear all Success*`
+}
+
+exports.pc = () => {
+        return`*「 REGISTRATION 」*\n\nif you haven't got the message. means you haven't saved your bot number*`
+}
+
+exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
+        return`*「 REGISTER DATA 」*\n\nyou have registered with the data \n\n◪ *DATA* \n  │ \n  ├─ ❏ Name : ${namaUser} \n  ├─ ❏ Number : wa.me/${sender.split("@")[0]} \n  ├─ ❏ Age : ${umurUser} \n  ├─ ❏ Register Time : ${time} \n  │ \n └─ ❏ NS : ${serialUser} \n\n ❏ NOTE : DO NOT FORGET THIS NUMBER BECAUSE IT IS IMPORTANT :v`
+}
+
+exports.cmdnf = (prefix, command) => {
+        return`command *${prefix}${command}* not found \ try to write *${prefix}menu*`
+}
+
+exports.owneresce = (pushname) => {
+        return`*sorry but ${pushname} not the owner script*`
+}
+
+exports.limitend = (pushname) => {
+        return`*sorry ${pushname} Today's limit is up*\n*The limit is reset every 00:00 hours*`
+}
+
+exports.limitcount = (limitCounts) => {
+        return`
+*「 LIMIT COUNT 」*
+the rest of your limit : ${limitCounts}
+
+NOTE : to get to the limit. can pass level up or buylimit`
+}
+
+exports.satukos = () => {
+        return`*Add parameters 1 (enable) or 0 (disable)`
+}
+
+exports.uangkau = (pushname, sender, uangkau) => {
+        return`◪ *BALANCE*\n  ❏ *Name* : ${pushname}\n  ❏ *Number* : ${sender.split("@")[0]}\n  ❏ *Money* : ${uangkau}`
+}
