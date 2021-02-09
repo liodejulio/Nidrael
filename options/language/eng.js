@@ -1,5 +1,5 @@
 exports.wait = () => {
-        return `⌛ Being Processed ⌛`
+        return `⌛ Sendo Processado ⌛`
 }
 
 exports.timeEnd = () => {
