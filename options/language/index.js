@@ -1,1 +1,1 @@
-exports.bra = require('./bra')
+exports.ind = require('./ind')
